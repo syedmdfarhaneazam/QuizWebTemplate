@@ -4,10 +4,26 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/quiz-logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ReactQuiz</title>
+    <title>Quiz Template</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div class="root" id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      let body = document.querySelector('body');
+      for (let i = 0; i < 200; i++) {
+        let section = document.createElement('section');
+        body.appendChild(section);
+      }
+      document.addEventListener('mousemove', function (e) {
+        document.querySelectorAll('section').forEach(section => {
+          let x = (section.offsetLeft) - e.pageX;
+          let y = (section.offsetTop) - e.pageY;
+          let d = Math.sqrt(x * x + y * y);
+          let s = Math.exp(d * -0.01);
+          section.style.opacity = s * 100 + "%"
+        })
+      })
+    </script>
   </body>
 </html>
