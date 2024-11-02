@@ -33,4 +33,4 @@ $ npm run dev
 Feel free to fork this project or make contributions to improve it. Your ideas and contributions are always welcome! 😊
 
 ## 📄 License
-This project is open for personal use. See the ![](LICENSE) file for details.
+This project is open for personal use. See the ![LICENSE](LICENSE) file for details.
