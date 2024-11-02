@@ -22,7 +22,7 @@ export default function Quiz() {
     const shuffeledQ = [...Q[activeQ].answers];
     shuffeledQ.sort(() => Math.random() - 0.5);
     return (
-        <div id='quiz'>
+        <div >
             <div id='question'>
                 <TimeOut Timeout={10000} changeQ={() => handleSelectAns(null)} /> {/*passing null value in answer since the time rann out*/}
                 <h2> {Q[activeQ].text} </h2>
