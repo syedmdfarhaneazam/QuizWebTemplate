@@ -1,6 +1,6 @@
 # 🎉 QuizWebTemplate
 
-![Quiz Demo](https://github.com/user-attachments/assets/f25054e9-444b-4ac4-b9db-b47d295b25e2)
+(https://github.com/user-attachments/assets/f25054e9-444b-4ac4-b9db-b47d295b25e2)
 
 Welcome to **QuizWebTemplate** — a ready-to-use quiz template with an elegant green-themed animation background. Whether you're working on a personal project or creating a fun quiz application, this template provides a charming and interactive design to enhance your project. ✨
 
@@ -33,4 +33,4 @@ $ npm run dev
 Feel free to fork this project or make contributions to improve it. Your ideas and contributions are always welcome! 😊
 
 ## 📄 License
-This project is open for personal use. See the ![LICENSE](LICENSE) file for details.
+This project is open for personal use. See the (LICENSE) file for details.
